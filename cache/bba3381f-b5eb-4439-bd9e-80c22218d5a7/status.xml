@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<root>
+
+<position>0.073190577328205</position>
+<audiofilters>
+  <filter_0></filter_0></audiofilters>
+<audiodelay>0</audiodelay>
+<aspectratio>default</aspectratio>
+<rate>1</rate>
+<version>3.0.16 Vetinari</version>
+<apiversion>3</apiversion>
+<state>playing</state>
+<length>600</length>
+<equalizer></equalizer>
+<subtitledelay>0</subtitledelay>
+<fullscreen>false</fullscreen>
+<time>43</time>
+<loop>false</loop>
+<repeat>false</repeat>
+<random>false</random>
+<currentplid>3</currentplid>
+<volume>256</volume>
+<videoeffects>
+  <contrast>1</contrast>
+  <gamma>1</gamma>
+  <hue>0</hue>
+  <brightness>1</brightness>
+  <saturation>1</saturation></videoeffects><information>
+    <category name="meta">
+    <info name='filename'>master.m3u8</info>    </category>
+  <category name='Stream 5'><info name='Type'>Audio</info><info name='Description'>aud3 English</info><info name='Bitrate'>24 kb/s</info><info name='Codec'>ec-3</info><info name='Sample rate'>48000 Hz</info><info name='Language'>English</info></category><category name='Stream 4'><info name='Type'>Audio</info><info name='Description'>aud2 English</info><info name='Bitrate'>192 kb/s</info><info name='Codec'>A52 Audio (aka AC3) (ac-3)</info><info name='Sample rate'>48000 Hz</info><info name='Language'>English</info></category><category name='Stream 6'><info name='Codec'>EIA-608 subtitles (c608)</info><info name='Description'>Closed captions 1</info><info name='Type'>Subtitle</info></category><category name='Stream 8'><info name='Codec'>EIA-608 subtitles (c608)</info><info name='Description'>Closed captions 3</info><info name='Type'>Subtitle</info></category><category name='Stream 2'><info name='Type'>Video</info><info name='Chroma location'>Left</info><info name='Buffer dimensions'>1920x1090</info><info name='Orientation'>Top left</info><info name='Codec'>H264 - MPEG-4 AVC (part 10) (avc1)</info><info name='Decoded format'>Planar 4:2:0 YUV</info><info name='Frame rate'>60</info><info name='Video resolution'>1920x1080</info></category><category name='Stream 9'><info name='Codec'>EIA-608 subtitles (c608)</info><info name='Description'>Closed captions 4</info><info name='Type'>Subtitle</info></category><category name='Stream 3'><info name='Type'>Audio</info><info name='Description'>aud1 English</info><info name='Bitrate'>160 kb/s</info><info name='Codec'>MPEG AAC Audio (mp4a)</info><info name='Sample rate'>48000 Hz</info><info name='Bits per sample'>16</info><info name='Language'>English</info></category><category name='Stream 7'><info name='Codec'>EIA-608 subtitles (c608)</info><info name='Description'>Closed captions 2</info><info name='Type'>Subtitle</info></category>  </information>
+  <stats>
+  <demuxreadbytes>44245858</demuxreadbytes>
+<averagedemuxbitrate>0</averagedemuxbitrate>
+<sentpackets>0</sentpackets>
+<sentbytes>0</sentbytes>
+<playedabuffers>0</playedabuffers>
+<lostabuffers>0</lostabuffers>
+<demuxreadpackets>0</demuxreadpackets>
+<demuxdiscontinuity>0</demuxdiscontinuity>
+<readbytes>6291</readbytes>
+<demuxcorrupted>0</demuxcorrupted>
+<averageinputbitrate>0</averageinputbitrate>
+<decodedvideo>5335</decodedvideo>
+<lostpictures>538</lostpictures>
+<sendbitrate>0</sendbitrate>
+<demuxbitrate>0.96923959255219</demuxbitrate>
+<displayedpictures>2102</displayedpictures>
+<readpackets>2</readpackets>
+<inputbitrate>0</inputbitrate>
+<decodedaudio>0</decodedaudio>
+  </stats>
+</root>
