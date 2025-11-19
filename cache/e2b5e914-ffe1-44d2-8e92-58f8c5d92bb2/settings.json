@@ -1,5 +1,5 @@
 {
     "python.analysis.diagnosticSeverityOverrides": {
-        {"python.analysis.diagnosticSeverities":{"missingImports":"none"}}
+        {"reportAbstractUsage": "reportMissingImports":false,"}
     }
 }

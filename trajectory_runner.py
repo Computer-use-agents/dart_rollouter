@@ -382,10 +382,17 @@ class TrajectoryRunnerActor:
                 'num_chunks' : step if action == 'DONE' else step-1     # spliter功能停用，这里保存step步数
                 }
                 logger.info(f"[{self.trace_id}] begin to insert mysql")
-                await mysql_writer.insert_run.remote(meta)
-                logger.info(f"[{self.trace_id}] 已存入mySQL数据库")
-
-            
+                if reward>0:
+                    logger.info(f"[{self.trace_id}] 已存入mySQL数据库")
+                    await mysql_writer.insert_run.remote(meta)
+                elif reward==0:
+                    if step >=4:
+                        await mysql_writer.insert_run.remote(meta)
+                        logger.info(f"[{self.trace_id}] 已存入mySQL数据库")
+                    else:
+                        logger.info(f"[{self.trace_id}] 奖励为0，步数小于4，不存入mySQL数据库")
+                else:
+                    logger.info(f"[{self.trace_id}] 奖励小于0，不存入mySQL数据库")
             logger.info(f"[{self.trace_id}] 任务轨迹执行完成 - task_id: {self.task_id}, 总步数: {step}")           
  
         except Exception as e:
