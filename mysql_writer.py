@@ -355,11 +355,11 @@ class MySQLWriterActor:
 if __name__ == '__main__':
     
     mysql_cfg_dict = {
-    'host': 'localhost',
-    'username': 'dart_rollouter',
-    'password': 'Dt8@Rx9p',
+    'host': '112.30.139.26',
+    'username': 'root',
+    'password': 'admin',
     'database': 'dart_database',
-    'port': 3306
+    'port': 51978
 }
     
     # mysql_cfg_dict = {
