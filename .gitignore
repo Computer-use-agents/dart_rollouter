@@ -23,4 +23,4 @@ output/
 outputs/
 timings.jsonl
 results_splitted/
-cache/
+cache/*
