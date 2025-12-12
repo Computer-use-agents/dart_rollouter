@@ -17,15 +17,15 @@ import mysql.connector as mysql
 from mysql.connector import Error
 
 # ========== 实验标识 ==========
-RUN_ID = "results/test_for_train_pass8_gpu8_env77_20250817_1345"
+RUN_ID = "results/pass@1_1"
 
 # ========== 数据库配置 ==========
 DB_CONFIG = dict(
-    user="teamx",
-    password="#C!D123^-c12",
-    host="112.125.88.107",
-    port=5906,
-    database="TeamX_BIGAI",
+    user="dart_rollouter",
+    password="password",
+    host="0.0.0.0",
+    port=3306,
+    database="dart_database",
     autocommit=True,
     connection_timeout=10,
 )

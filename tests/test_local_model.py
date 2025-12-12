@@ -7,7 +7,7 @@ from transformers import AutoProcessor, AutoTokenizer, Qwen2_5_VLForConditionalG
 from vllm import LLM, SamplingParams
 import base64
 import io
-MODEL_PATH = "/capacity/userdata/vcfenxd75jiv/shichenrui/ui_tars/ByteDance-Seed/UI-TARS-1.5"
+MODEL_PATH = "ByteDance-Seed/UI-TARS-1.5"
 import copy 
 import ray
 from qwen_vl_utils import process_vision_info

@@ -14,8 +14,8 @@ from pathlib import Path
 from typing import Dict, Tuple, List, Optional
 
 # === 需要根据实际路径自行调整 ===
-EXP1_ROOT = Path("results/pass@1_all_6env_66model_aligned_tmp0_08011310")
-EXP2_ROOT = Path("results/pass@1_all_6env_66model_aligned_tmp0_08011439")
+EXP1_ROOT = Path("results/pass@1_1")
+EXP2_ROOT = Path("results/pass@1_2")
 OUTPUT_FILE = Path("reward_drop_chrome.txt")
 
 # ---------- 工具函数 ---------- #

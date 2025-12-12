@@ -102,7 +102,4 @@ def get_result(target_dir):
 
 
 if __name__ == '__main__':
-    # get_result("/capacity/userdata/vcfenxd75jiv/workshops/workshop-4caef9d8-9aba-46e5-aed0-46dcd955e590/uitars_training_sample16/34/")
-    # get_result("results/pass@1_all_32env_6model_tmp07_max-texts-35")
-    # get_result("results/pass@1_async_all_66env_6model_max-texts-15_add-sample-args")
-    get_result("results/val_trainset90_px_step10")
+    get_result("results/pass@1_1")

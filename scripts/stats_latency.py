@@ -26,7 +26,7 @@ def load_jsonl(paths):
 
 def main():
     ap = argparse.ArgumentParser(description="统计耗时并绘柱状图")
-    ap.add_argument("--file", default="results/pass@1_all_36env_4model_logspace/timings.jsonl",
+    ap.add_argument("--file", default="results/pass@1_1",
                     help="日志文件（支持通配符），默认 timings.jsonl")
     ap.add_argument("--out", default="latency_by_step.png",
                     help="输出图片文件名 (PNG)")

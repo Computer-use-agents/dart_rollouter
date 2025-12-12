@@ -96,10 +96,7 @@ def main() -> None:
         "-e",
         "--experiments",
         nargs="+",
-        # default=["results/pass@1_async_all_66env_6model_examples-processed_fix-text-prompt_max-texts-15",
-        #          "results/pass@1_async_all_66env_6model_examples-processed",
-        #          "results/pass@1_async_all_66env_6model_max-texts-15_add-sample-args"],
-        default=["results/pass@1_async_all_66env_6model_max-texts-15_tmp0"],        
+        default=["results/pass@1_1"],        
         help="List of experiment directory paths",
     )
     parser.add_argument(
