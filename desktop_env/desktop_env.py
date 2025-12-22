@@ -154,7 +154,6 @@ class DesktopEnv(gym.Env):
         self.manager, self.provider = create_vm_manager_and_provider(provider_name, region, use_proxy=False)
         print(self.manager)
         print(self.provider)
-
         self.os_type = os_type
 
         # Track whether environment has been used (step/setup) to optimize snapshot revert
@@ -183,6 +182,7 @@ class DesktopEnv(gym.Env):
 
         # Initialize emulator and controller
         logger.info("Initializing...")
+        logger.info(f"Environment initialization task_id************************")
         self._start_emulator()
 
         # mode: human or machine

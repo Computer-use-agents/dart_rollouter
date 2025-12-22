@@ -11,8 +11,6 @@ class StorageActor:
         self.root = Path(storage_cfg.root)
         print(f">>>root:>>> {self.root}")
         self.root.mkdir(parents=True, exist_ok=True)
-        
-        self.splitted_root = storage_cfg.splitter.output_dir
 
     # ---- save screenshot ----
     async def save_frame(self, task_root: str, step: int, png_bytes: bytes) -> str:

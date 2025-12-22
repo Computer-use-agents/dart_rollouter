@@ -7,7 +7,7 @@ import logging
 from functools import partial
 from io import BytesIO
 
-from src.desktop_env.desktop_env import DesktopEnv
+from desktop_env.desktop_env import DesktopEnv
 from src.utils.ui_tars_utils import *
 from src.utils.log_config import setup_logging
 from src.utils.kill_all_env import stop_emulator
@@ -40,7 +40,7 @@ class TrajectoryRunnerActor:
         self.max_images = self.runner_cfg.max_images
         self.max_tests = self.runner_cfg.max_texts
         self.max_steps = self.runner_cfg.max_steps
-        self.save_img_pt = self.runner_cfg.save_img_pt
+        # self.save_img_pt = self.runner_cfg.save_img_pt
         # self.rollout_n = self.runner_cfg.rollout_n
 
         # --- process task info for running ---

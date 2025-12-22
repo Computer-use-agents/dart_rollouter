@@ -23,7 +23,7 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 # Set environment variables
-@hydra.main(config_path="config", config_name="config", version_base=None)
+@hydra.main(config_path="../config", config_name="config", version_base=None)
 def main(config: DictConfig) -> None:
     print(OmegaConf.to_yaml(config))
     asyncio.run(async_main(config))

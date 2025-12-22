@@ -290,7 +290,7 @@ class ModelServicePool:
             self.gpu_instances[gpu_id] = GPUInstance(gpu_id, self.gpu_memory_utilization)
 
     async def _start_initial_services(self) -> List[ServiceInstance]:
-        """Start the initial [replicas](file://c:\Users\Lenovo\Downloads\dart_rollouter-main\src\services\model_service.py#L84-L84) number of service instances."""
+        """Start the initial [replicas] number of service instances."""
         logger.info(f"Starting {self.replicas} initial model services...")
         
         # Use GPU lock to quickly get available GPUs
@@ -986,7 +986,7 @@ class ModelServicePool:
     async def roll_reload(self, new_ckpt_path: str, batch_size: int = 1):
         """
         Smoothly reload the model through rolling updates.
-        Update [batch_size](file://c:\Users\Lenovo\Downloads\dart_rollouter-main\src\services\model_service.py#L116-L116) instances at a time.
+        Update [batch_size] instances at a time.
         """
 
         if self.replicas >= 4:

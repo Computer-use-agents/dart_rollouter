@@ -28,7 +28,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 # 使用Hydra装饰器，它会自动处理配置加载
-@hydra.main(config_path="config", config_name="config", version_base="1.3")
+@hydra.main(config_path="../config", config_name="config", version_base="1.3")
 def main(cfg: DictConfig):
     """主函数，用于解析命令行参数并启动 FastAPI 应用。"""
     
