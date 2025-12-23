@@ -2,7 +2,7 @@
 # start_run.sh - Wait for model service, then start main run.py
 # Usage: chmod +x start_run.sh
 
-source miniconda3/bin/activate 
+source ~/miniconda3/bin/activate 
 conda activate verl
 # cd /workspace/codes/verl/rollouter/
 set -euo pipefail
